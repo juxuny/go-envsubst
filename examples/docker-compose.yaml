@@ -1,0 +1,8 @@
+version: "3.5"
+
+service:
+  web:
+    container_name: ${CONTAINER_NAME}
+    image: nginx:1.21
+    ports:
+      8999:80
